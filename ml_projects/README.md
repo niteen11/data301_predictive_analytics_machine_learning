@@ -5,20 +5,23 @@
 
 This first step is where the objective is defined. Géron refers to objectives in business terms, but this isn't strictly necessary. However, an understanding of how the machine learning system's solution will ultimately be used is important. This step is also where comparable scenarios and current workarounds to a given problem are discussed, as well as assumptions being contemplated, and the degree of need for human expertise determined. Other key technical items to frame in this step include determining which type of machine learning problem (supervised, unsupervised, etc.) applies, and adopting appropriate performance metric(s).
 
-* Define the objective in business terms.
-* How will your solution be used?
-* What are the current solutions/workarounds (if any)?
-* How should you frame this problem (supervised/unsupervised, online/offline,
-etc.)?
-* How should performance be measured?
-* Is the performance measure aligned with the business objective?
-* What would be the minimum performance needed to reach the business objec‐
-tive?
-* What are comparable problems? Can you reuse experience or tools?
-* Is human expertise available?
-* How would you solve the problem manually?
-* List the assumptions you (or others) have made so far.
-* Verify assumptions if possible.
+* Create a copy of the data for exploration (sampling it down to a manageable size if necessary).
+*  Create a Jupyter notebook to keep a record of your data exploration.
+*  Study each attribute and its characteristics:
+ * Name
+ * Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
+ * % of missing values
+ * Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
+ * Possibly useful for the task?
+ * Type of distribution (Gaussian, uniform, logarithmic, etc.)
+* For supervised learning tasks, identify the target attribute(s).
+* Visualize the data.
+* Study the correlations between attributes.
+* Study how you would solve the problem manually.
+* Identify the promising transformations you may want to apply.
+* Identify extra data that would be useful (go back to “Get the Data” on page 506).
+* Document what you have learned.
+
 
  
 ## Get the data
