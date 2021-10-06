@@ -8,7 +8,7 @@ This first step is where the objective is defined. Géron refers to objectives i
 * Create a copy of the data for exploration (sampling it down to a manageable size if necessary).
 *  Create a Jupyter notebook to keep a record of your data exploration.
 *  Study each attribute and its characteristics:
-+ Name
+++ Name
  * Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
  * % of missing values
  * Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
